@@ -1,0 +1,117 @@
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 0.9em;
+  }
+  #app {
+    // MENU
+
+    .menu {
+      .bookmarks {
+        display: initial;
+      }
+    }
+
+    .options {
+      .filters {
+        .option:last-child {
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .user-lookup {
+      width: 100%;
+      min-width: auto;
+      height: 100%;
+    }
+
+    // BOOKMARKS
+    .bookmarks {
+      bottom: 0;
+      width: 100%;
+
+      &.collapsed {
+        display: none;
+      }
+
+      .options,
+      .bookmarks-meta {
+        display: none;
+      }
+    }
+
+    .options {
+      .label {
+        display: block;
+      }
+    }
+
+    table {
+      thead {
+        display: none;
+      }
+      tr {
+        display: block;
+        position: relative;
+        padding: 0.8em 0.5em;
+        &:first-child {
+          border-top: 1px solid $outline;
+        }
+      }
+      td {
+        display: table-row;
+        width: 100%;
+      }
+
+      .fandom {
+        font-size: 1.3em;
+        .meta {
+          display: block;
+          margin: 5px 0 10px 0;
+        }
+      }
+
+      .letters,
+      .characters {
+        &:before {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+      }
+
+      .characters,
+      .odd .characters {
+        &:before {
+          content: 'Characters';
+        }
+        li,
+        li:first-child,
+        li:last-child {
+          display: inline-block;
+          vertical-align: top;
+          width: 50%;
+          border: 0;
+          padding: 5px 5px 5px 0;
+          margin: 0;
+          font-size: 0.9em;
+        }
+      }
+
+      .letters {
+        &:before {
+          content: 'Letters';
+          margin-top: 10px;
+        }
+        ul {
+          padding-top: 5px;
+        }
+
+        li {
+          float: left;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
