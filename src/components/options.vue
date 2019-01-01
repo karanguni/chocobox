@@ -26,18 +26,11 @@
       <input type="checkbox" id="bookmarked-fandoms" v-model="options.onlyBookmarks">
       <label for="bookmarked-fandoms">Bookmarked fandoms</label>
     </div>
-    <div class="option" v-if="unlock">
-      <input type="checkbox" id="letters-fandoms" v-model="options.onlyLetters">
-      <label for="letters-fandoms">Fandoms with letters<span v-if="unlock">*</span></label>
-    </div>
     <!-- <div class="option" v-if="unlock">
       <input type="checkbox" id="ph" v-model="options.onlyPHs">
       <label for="ph">Only fandoms with pinch hitters</label>
     </div> -->
 
-    <div class="clear" v-if="unlock">
-      <small>* letters that were submitted to the letters post; prompts may have unlisted letters</small>
-    </div>
   </div>
 
   <div class="row">
@@ -49,12 +42,12 @@
     </div>
     <div class="option">
       <input type="checkbox" id="hide-chars" v-model="options.hideCharacters">
-      <label for="hide-chars">Hide Characters</label>
+      <label for="hide-chars">Hide Relationships</label>
     </div>
-    <div class="option" v-if="unlock">
+    <!-- <div class="option" v-if="unlock">
       <input type="checkbox" id="journal-style" v-model="options.destyle">
       <label for="journal-style">Mobile letter format</label>
-    </div>
+    </div> -->
 
     <div class="clear" v-if="showMsg">
       <small><strong :style="{ color: 'red'}">Load all the fandoms at once instead of as you scroll. This may take your browser a bit!</strong></small>
@@ -114,7 +107,7 @@ export default {
         onlyPHs: false,
         destyle: false,
         loadAll: false,
-        hideCharacters: false
+        hideCharacters: true
       }
     };
   }

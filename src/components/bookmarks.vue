@@ -11,9 +11,6 @@
     <div class="bookmarks-meta">
       <div class="counts" v-if="!expand">
         <ul>
-          <li v-if="unlock">
-            Letters: {{ lettermarks.length }}
-          </li>
           <li>
             Fandoms: {{ bookmarks.length }}
           </li>
@@ -32,7 +29,7 @@
         prompts by clicking on the <span class="far fa-heart"></span> icon. This data is saved in your browser,
         and will remain for as long as you do not clear the cache.
       </p>
-      <p>
+      <!-- <p>
         <a @click="showLoad = !showLoad" class="show-load">
           {{ showLoad ? 'Hide' : 'Show'}} Backup/Load
         </a>
@@ -51,21 +48,8 @@
           <textarea cols="10" rows="2" v-model="saved"></textarea>
         </div>
 
-      </div>
-      <hr  />
-
-      <div class="letters"  v-if="unlock">
-        <h3>Letters</h3>
-        <ul v-if="lettermarks.length">
-          <li v-for="letter in lettermarks" :key="letter.url">
-            <template v-if="letter.isPinchhitter">(</template>
-            <a :href="formatUrl(letter.url)" target="_blank">{{ letter.username }}</a> ({{ letter.name }})
-            <template v-if="letter.isPinchhitter">)</template>
-            <span @click="removeLettermark(letter)" class="remove far fa-times-circle"></span>
-          </li>
-        </ul>
-        <span v-else>You haven't bookmarked any letters yet ):</span>
-      </div>
+      </div> -->
+      <!-- <hr  /> -->
 
       <div class="fandoms">
         <h3>Fandoms</h3>
@@ -73,8 +57,7 @@
           <thead>
             <tr>
               <th class="fandom">Fandom</th>
-              <th class="characters" v-if="!options.hideCharacters">Characters</th>
-              <th class="letters" v-if="unlock">Letters</th>
+              <th class="characters" v-if="!options.hideCharacters">Relationships</th>
               <th class="prompts" v-if="unlock">Prompts</th>
             </tr>
           </thead>
@@ -95,39 +78,9 @@
               <ul>
                 <li v-for="char in getCharacters(fandom['.key'])"
                   :key="char"
-                  :class="{ highlight: letterHasChar(fandom['.key'], char) }">
                   {{char}}
                 </li>
               </ul>
-            </td>
-            <td class="letters" v-if="unlock">
-              <ul
-                  v-for="letter in letters[fandom['.key']]"
-                  :key="letter.username"
-                >
-                  <li class="letter">
-                    <a
-                      class="user"
-                      :href="formatUrl(letter.url)" target="_blank"
-                    >{{ letter.username }}</a>
-                    <button
-                      class="bookmark-letter"
-                      @click="toggleLettermark(letter, fandom)"
-                    >
-                      <span v-if="hasLettermark(letter, fandom)" class="fas fa-heart"></span>
-                    <span v-else class="far fa-heart"></span>
-                    </button>
-                    <div class="meta">
-                      <!-- TODO: meta stuff -->
-                      <span v-if="isProlific(letter.username)">*</span>
-                      <sup v-if="showEasterEggs">{{ challenges(letter.username).join(' ') }}</sup>
-                      <button class="char-count meta-tag" @click="highlightChars(letter, fandom['.key'])" @mouseleave="letterChars = []">
-                        Chars: {{ letter.characters === undefined ? 'Any' : letter.characters.length }}
-                      </button>
-                    </div>
-
-                  </li>
-                </ul>
             </td>
             <td v-if="unlock" class="prompts">
               <button class="button-primary" v-if="!prompts[fandom['.key']] && hasPrompts[fandom['.key']]" @click="getPrompts( fandom['.key'])">Get Prompts</button>
@@ -272,13 +225,11 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'letters',
       'options',
       'fandoms',
       'bookmarks',
       'characters',
       'promptmarks',
-      'lettermarks',
       'prompts',
       'unlock',
       'showEasterEggs',
@@ -287,7 +238,6 @@ export default {
     marks() {
       const marks = {
         fandoms: this.bookmarks,
-        letters: this.lettermarks,
         prompts: this.promptsmarks
       };
 
@@ -299,7 +249,6 @@ export default {
   },
   data() {
     return {
-      letterChars: [],
       hasPrompts,
       showHelp: false,
       expand: false,
@@ -329,12 +278,10 @@ export default {
       if (!this.saved || !this.saved.length) {
         return;
       }
-      this.$localStorage.set('lettermarks', JSON.stringify(parsed.letters));
       this.$localStorage.set('bookmarks', JSON.stringify(parsed.fandoms));
       this.$localStorage.set('promptmarks', JSON.stringify(parsed.prompts || []));
       this.$store.commit('setPromptmarks', parsed.prompts || []);
       this.$store.commit('setBookmarks', parsed.fandoms);
-      this.$store.commit('setLettermarks', parsed.letters);
     }
   }
 };

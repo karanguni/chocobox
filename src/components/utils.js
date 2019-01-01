@@ -56,27 +56,6 @@ export default {
     this.$store.commit('setBookmarks', newVal);
     this.$localStorage.set('bookmarks', JSON.stringify(this.bookmarks));
   },
-  toggleLettermark(letter, fandom) {
-    if (
-      find(this.lettermarks, o => {
-        return o.username === letter.username && o.key === fandom['.key'];
-      })
-    ) {
-      this.removeLettermark(letter, fandom['.key']);
-      return false;
-    }
-
-    const newVal = this.lettermarks;
-
-    newVal.push({
-      ...letter,
-      name: fandom.name,
-      key: fandom['.key']
-    });
-
-    this.$store.commit('setLettermarks', newVal);
-    this.$localStorage.set('lettermarks', JSON.stringify(this.lettermarks));
-  },
   togglePromptmark(prompt) {
     if (
       find(this.promptmarks, o => {
@@ -104,19 +83,6 @@ export default {
     );
     this.$localStorage.set('bookmarks', JSON.stringify(this.bookmarks));
   },
-  removeLettermark(letter, key) {
-    if (!key && letter.key !== undefined) {
-      key = letter.key;
-    }
-
-    this.$store.commit(
-      'setLettermarks',
-      filter(this.lettermarks, o => {
-        return !(o.username === letter.username && o.key === key);
-      })
-    );
-    this.$localStorage.set('lettermarks', JSON.stringify(this.lettermarks));
-  },
   removePromptmark(prompt) {
     this.$store.commit(
       'setPromptmarks',
@@ -132,11 +98,6 @@ export default {
   hasBookmark(fandom) {
     return find(this.bookmarks, o => {
       return o.name === fandom.name;
-    });
-  },
-  hasLettermark(letter, fandom) {
-    return find(this.lettermarks, o => {
-      return o.username === letter.username && o.key === fandom['.key'];
     });
   },
   hasPromptmark(prompt) {

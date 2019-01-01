@@ -9,7 +9,7 @@ import appStore from './store/index.js';
 import VueFire from 'vuefire';
 import VueLocalStorage from 'vue-localstorage';
 import db from './db.js';
-let metaRef = db.ref('/meta');
+let metaRef = db.ref('/timestamp');
 
 Vue.config.productionTip = false;
 Vue.use(VueFire);
@@ -26,23 +26,6 @@ new Vue({
   components: {
     App
   },
-  watch: {
-    letters: {
-      deep: true,
-      handler(val) {
-        if (val && val['.value']) {
-          store.commit('setLetters', val['.value']);
-        } else {
-          store.commit('setLetters', val);
-        }
-      }
-    }
-  },
-  data() {
-    return {
-      letters: {}
-    };
-  },
   beforeMount() {
     db.ref('/characters')
       .limitToFirst(100)
@@ -51,6 +34,13 @@ new Vue({
         const result = res.toJSON();
         store.commit('setCharsLoaded', true);
         store.commit('setCharacters', result);
+      });
+    db.ref('/hasPrompts')
+      .once('value')
+      .then(res => {
+        const result = res.toJSON();
+        store.commit('setHasPrompts', result);
+        store.commit('setHasPromptsLoaded', true);
       });
     db.ref('/fandomsonly')
       .once('value')
@@ -80,17 +70,6 @@ new Vue({
       });
   },
   firebase: {
-    letters: {
-      source: db.ref('/letters'),
-      asObject: true,
-      readyCallback() {
-        if (this.letters && this.letters['.value']) {
-          store.commit('setLetters', this.letters['.value']);
-        } else {
-          store.commit('setLetters', this.letters);
-        }
-      }
-    },
     meta: {
       source: metaRef
     }

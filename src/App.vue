@@ -2,51 +2,25 @@
 	<div id="app">
 		<h1>Chocobox 2019 App</h1>
 
-    <p>Searching for something? The <a href="https://chocoboxsearch.herokuapp.com">search tool</a> is a full-text, much faster way to search the tagset - <strong>including relationships!</strong></p>
-    <p><strong>LAST UPDATED AT <strong>{{ new Date('2018-12-31T20:16:11.826Z').toLocaleString() }} (local time)</strong>. If anything has changed since that time, it is NOT REFLECTED IN THE APP.
+    <p>Searching the tagset to write your signup? The <a href="https://chocoboxsearch.herokuapp.com">search tool</a> is a full-text, much faster way to search - <strong>including relationships!</strong></p>
+    <p>Last updated at <strong>{{ new Date(timestamp).toLocaleString() }} (local time)</strong>. If anything has changed since that time, it is NOT REFLECTED IN THE APP.
     </p>
+    <p><strong>CAVEATS</strong>: currently, prompts that you bookmark <strong>do not update or get deleted</strong> if the requester makes changes/deletes them AFTER you've bookmarked it. <strong>Always check the final signup after signups close.</strong></p>
 
-    <div v-if="!loaded || !loadedChars" class="loader">Loading...</div>
+    <div v-if="!loaded || !loadedChars || !loadedHasPrompts" class="loader">Loading...</div>
 
-    <template v-if="loaded && loadedChars && !maintenance">
+    <template v-else>
       <div class="scroll-top" @click="scrollToTop">(^)</div>
-
-      <div v-if="unlock" :class="['menu', { sticky: sticky }]">
-        <ul>
-          <li class="submit-letter"  @click="showLetterModal = true">
-            Submit Letter
-          </li>
-          <li class="edit-letter"  @click="showEditModal = true">
-            Edit Letter
-          </li>
-          <li class="bookmarks" @click="expandBookmarks = !expandBookmarks">
-            Bookmarks
-          </li>
-          <li class="help" @click="showHelp = true">
-            <span class="fas fa-question-circle fa-xxl" ></span>
-          </li>
-        </ul>
-      </div>
-
       <bookmarks :force-expand="expandBookmarks" @toggle="expandBookmarks = !expandBookmarks"></bookmarks>
-      <!-- <add-letter
-        v-if="showLetterModal"
-        @close="showLetterModal = false">
-      </add-letter>
-      <edit-letter
-        v-if="showEditModal"
-        @close="showEditModal = false">
-      </edit-letter> -->
 
-      <!-- <user-lookup></user-lookup> -->
+      <user-lookup></user-lookup>
       <options></options>
 
       <table class="main">
         <thead>
           <tr>
             <th class="fandom">Fandom</th>
-            <th class="characters" v-if="!options.hideCharacters">Characters</th>
-            <th v-if="unlock" class="letters">Letters</th>
+            <th class="characters" v-if="!options.hideCharacters">Relationships</th>
             <th v-if="unlock" class="prompts">Prompts</th>
           </tr>
         </thead>
@@ -79,40 +53,12 @@
             <ul>
               <li
                 v-for="char in getCharacters(fandom['.key'], 'char li')"
-                :class="{ highlight: letterHasChar(fandom['.key'], char) }"
                 :key="`${char}${Math.random()}`"
               >
                 {{char}}
               </li>
             </ul>
           </td>
-          <td v-if="unlock" class="letters">
-            <ul>
-              <li v-for="letter in letters[fandom['.key']]" :key="letter.username" class="letter">
-                <a
-                  class="user"
-                  :href="formatUrl(letter.url)" target="_blank"
-                >{{ letter.username }}</a>
-                <button
-                  class="bookmark-letter"
-                  @click="toggleLettermark(letter, fandom)"
-                >
-                  <span v-if="hasLettermark(letter, fandom)" class="fas fa-heart"></span>
-                <span v-else class="far fa-heart"></span>
-                </button>
-                <div class="meta">
-                  <!-- TODO: meta stuff -->
-                  <span v-if="isProlific(letter.username)">*</span>
-                  <sup v-if="showEasterEggs">{{ challenges(letter.username).join(' ') }}</sup>
-                  <button class="char-count meta-tag" @click="highlightChars(letter, fandom['.key'])" @mouseleave="letterChars = []">
-                    Chars: {{ letter.characters === undefined ? 'Any' : letter.characters.length }}
-                  </button>
-                </div>
-
-              </li>
-            </ul>
-          </td>
-          <!-- HERE BE PROMPTS -->
           <td v-if="unlock" class="prompts">
             <button class="button-primary" v-if="!prompts[fandom['.key']] && hasPrompts[fandom['.key']]" @click="getPrompts(fandom['.key'])">Get Prompts</button>
             <div v-if="prompts[fandom['.key']] === 'loading'">Loading...</div>
@@ -123,8 +69,9 @@
                   <tr>
                     <th class="fave"><span class="fas fa-heart"></span></th>
                     <th class="username">Username</th>
-                    <th class="characters">Characters</th>
+                    <th class="characters">Relationships</th>
                     <th class="prompts">Prompts</th>
+                    <th class="type">Type</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -143,8 +90,6 @@
                     </td>
                     <td>
                       {{ prompt.username }}
-                      <span v-if="isProlific(prompt.username)">*</span>
-                      <sup v-if="showEasterEggs">{{ challenges(prompt.username).join(' ') }}</sup>
                       <a @click="getUserPrompts(prompt.username)"> (see all)</a>
                     </td>
                     <td>
@@ -155,6 +100,10 @@
                     <td class="prompt">
                       <div v-html="prompt.prompt"></div>
                       <a v-if="prompt.letter" :href="formatUrl(prompt.letter)" target="blank">Letter</a>
+                    </td>
+                    <td class="type">
+                      <p v-if="prompt.fanfic">Fanfic</p>
+                      <p v-if="prompt.fanart">Fanart</p>
                     </td>
                   </tr>
                 </tbody>
@@ -171,8 +120,6 @@
 </template>
 
 <script>
-import AddLetter from './components/add-letter.vue';
-import EditLetter from './components/edit-letter.vue';
 import Bookmarks from './components/bookmarks.vue';
 import Options from './components/options.vue';
 import UserLookup from './components/user-lookup.vue';
@@ -183,7 +130,6 @@ import db from './db.js';
 import { mapGetters } from 'vuex';
 
 // internal
-import hasPrompts from './data/hasPrompts.js';
 import utils from './components/utils.js';
 
 // Remove english articles from fandom names
@@ -201,35 +147,32 @@ function removeArticlesCompare(o) {
 export default {
   name: 'app',
   components: {
-    AddLetter,
-    EditLetter,
     Bookmarks,
     Options,
     UserLookup
   },
   beforeMount() {
-    // this.$store.commit('setUnlock', true);
+    const meta = db
+      .ref('/timestamp')
+      .once('value')
+      .then(res => {
+        this.timestamp = res.val().timestamp;
+      });
     this.$store.commit('setOptions', {
       filter: {
         category: '',
         term: ''
       },
-      onlyLetters: false,
       onlyBookmarks: false,
       onlyPrompts: true,
       onlyPHs: false,
       destyle: false,
-      hideCharacters: false
+      hideCharacters: true
     });
 
     const bookmarksJson = this.$localStorage.get('bookmarks');
     if (bookmarksJson) {
       this.$store.commit('setBookmarks', JSON.parse(bookmarksJson));
-    }
-
-    const lettermarksJson = this.$localStorage.get('lettermarks');
-    if (lettermarksJson) {
-      this.$store.commit('setLettermarks', JSON.parse(lettermarksJson));
     }
 
     const promptmarksJson = this.$localStorage.get('promptmarks');
@@ -238,34 +181,21 @@ export default {
     }
   },
   created() {
-    document.addEventListener('keydown', this.easterEggs);
-    document.addEventListener('keydown', this.unlockModTools);
-    document.addEventListener('keyup', this.unlockModTools);
     window.addEventListener('scroll', this.lazyload);
   },
   beforeDestroy() {
-    document.removeEventListener('keydown', this.easterEggs);
-    document.removeEventListener('keydown', this.unlockModTools);
-    document.removeEventListener('keyup', this.unlockModTools);
     window.removeEventListener('scroll', this.lazyload);
   },
   data() {
     return {
-      showLetterModal: false,
-      showEditModal: false,
       maintenance: false,
+      timestamp: null,
       showEggHelp: false,
       showHelp: false,
-      hasPrompts,
       expandBookmarks: false,
       down: {},
       mods: false,
       scrollPosition: 100,
-      letterChars: {
-        fandom: '',
-        characters: []
-      },
-      timesCalled: 0,
       filtered: [],
       updating: true,
       sticky: false,
@@ -273,30 +203,20 @@ export default {
     };
   },
   computed: {
-    lastUpdated() {
-      const data = _.find(this.meta, { '.key': 'lastUpdated' });
-
-      if (!data) {
-        return '';
-      }
-
-      return new Date(data['.value']).toString();
-    },
     ...mapGetters([
-      'letters',
       'fandoms',
       'loaded',
+      'hasPrompts',
       'bookmarks',
       'characters',
       'categories',
-      'lettermarks',
       'promptmarks',
       'unlock',
       'options',
       'user',
       'prompts',
-      'showEasterEggs',
       'loadedChars',
+      'loadedHasPrompts',
       'loadAll'
     ])
   },
@@ -357,7 +277,6 @@ export default {
 
 
       if (
-        !this.options.onlyLetters &&
         !this.options.onlyPrompts &&
         !this.options.filter.term.length &&
         !this.options.onlyBookmarks &&
@@ -377,17 +296,11 @@ export default {
         return f.name.length;
       });
 
-      // if (this.options.onlyPrompts) {
-      //   arr = _.filter(arr, o => {
-      //     return this.hasPrompts[o['.key']];
-      //   });
-      // }
-
-      // if (this.options.onlyLetters) {
-      //   arr = _.filter(arr, o => {
-      //     return this.letters[o['.key']] !== undefined;
-      //   });
-      // }
+      if (this.options.onlyPrompts) {
+        arr = _.filter(arr, o => {
+          return this.hasPrompts[o['.key']];
+        });
+      }
 
       if (this.options.onlyBookmarks) {
         const bookmarkedFandoms = [];

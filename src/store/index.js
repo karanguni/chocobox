@@ -1,6 +1,7 @@
 const state = {
   loadedChars: false,
   loaded: false,
+  loadedHasPrompts: false,
   loadAll: {
     characters: false,
     fandoms: false,
@@ -8,22 +9,20 @@ const state = {
   },
   characters: {},
   fandoms: [],
-  letters: {},
+  hasPrompts: {},
   prompts: {},
   bookmarks: [],
-  lettermarks: [],
   promptmarks: [],
   user: null,
   userPrompts: [],
   categories: [],
-  unlock: false,
+  unlock: true,
   showEasterEggs: false,
   options: {
     filter: {
       category: '',
       term: ''
     },
-    onlyLetters: false,
     onlyBookmarks: false,
     onlyPrompts: false,
     onlyPHs: false,
@@ -58,8 +57,16 @@ const mutations = {
     state.loaded = val;
   },
 
+  setHasPromptsLoaded(state, val) {
+    state.loadedHasPrompts = val;
+  },
+
   setFandoms(state, fandoms) {
     state.fandoms = fandoms;
+  },
+
+  setHasPrompts(state, hasPrompts) {
+    state.hasPrompts = hasPrompts;
   },
 
   setPrompts(state, prompts) {
@@ -106,8 +113,10 @@ const mutations = {
 const getters = {
   loadAll: state => state.loadAll,
   loadedChars: state => state.loadedChars,
+  loadedHasPrompts: state => state.loadedHasPrompts,
   characters: state => state.characters,
   letters: state => state.letters,
+  hasPrompts: state => state.hasPrompts,
   loaded: state => state.loaded,
   fandoms: state => state.fandoms,
   prompts: state => state.prompts,
