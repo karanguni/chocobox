@@ -94,6 +94,7 @@
                       <th class="username">Username</th>
                       <th class="characters">Characters</th>
                       <th class="prompts">Prompts</th>
+                      <th>Type</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -122,6 +123,10 @@
                         <div v-html="prompt.prompt"></div>
                         <a v-if="prompt.letter" :href="formatUrl(prompt.letter)" target="blank">Letter</a>
                       </td>
+                      <td class="type">
+                        <p v-if="prompt.fanfic">Fanfic</p>
+                        <p v-if="prompt.fanart">Fanart</p>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -147,6 +152,7 @@
                   <th class="username">Username</th>
                   <th class="characters">Characters</th>
                   <th class="prompts">Prompts</th>
+                  <th>Type</th>
                 </tr>
               </thead>
               <tbody>
@@ -174,6 +180,10 @@
                     <div v-html="prompt.prompt"></div>
                     <a v-if="prompt.letter" :href="formatUrl(prompt.letter)" target="blank">Letter</a>
                   </td>
+                  <td class="type">
+                    <p v-if="prompt.fanfic">Fanfic</p>
+                    <p v-if="prompt.fanart">Fanart</p>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -186,7 +196,6 @@
 
 <script>
 import { each, find } from 'lodash';
-import hasPrompts from '../data/hasPrompts.js';
 import { mapGetters } from 'vuex';
 import utils from './utils.js';
 export default {
@@ -226,6 +235,7 @@ export default {
   computed: {
     ...mapGetters([
       'options',
+      'hasPrompts',
       'fandoms',
       'bookmarks',
       'characters',
@@ -249,7 +259,6 @@ export default {
   },
   data() {
     return {
-      hasPrompts,
       showHelp: false,
       expand: false,
       bookmarksData: [],

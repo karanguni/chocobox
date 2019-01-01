@@ -2,14 +2,14 @@
 	<div id="app">
 		<h1>Chocobox 2019 App</h1>
 
-    <p>Searching the tagset to write your signup? The <a href="https://chocoboxsearch.herokuapp.com">search tool</a> is a full-text, much faster way to search - <strong>including relationships!</strong></p>
-    <p>Last updated at <strong>{{ new Date(timestamp).toLocaleString() }} (local time)</strong>. If anything has changed since that time, it is NOT REFLECTED IN THE APP.
-    </p>
+    <p>Looking for something? The <a href="https://chocoboxsearch.herokuapp.com">search tool</a> is a full-text, much faster way to search - <strong>including relationships and full-text prompt search!</strong></p>
     <p><strong>CAVEATS</strong>: currently, prompts that you bookmark <strong>do not update or get deleted</strong> if the requester makes changes/deletes them AFTER you've bookmarked it. <strong>Always check the final signup after signups close.</strong></p>
 
     <div v-if="!loaded || !loadedChars || !loadedHasPrompts" class="loader">Loading...</div>
 
     <template v-else>
+    <p>Last updated at <strong>{{ new Date(timestamp).toLocaleString() }} (local time)</strong>. If anything has changed since that time, it is NOT REFLECTED IN THE APP.
+    </p>
       <div class="scroll-top" @click="scrollToTop">(^)</div>
       <bookmarks :force-expand="expandBookmarks" @toggle="expandBookmarks = !expandBookmarks"></bookmarks>
 
@@ -43,8 +43,7 @@
                   <span v-if="hasBookmark(fandom)" class="fas fa-heart"></span>
                   <span v-else class="far fa-heart"></span>
               </button>
-            <div class="meta hide">
-                Key: {{ fandom['.key'] }}
+            <div class="meta">
               <span class="category meta-tag" v-if="!options.hideCategory">{{fandom.category.join(', ')}}</span>
 
             </div>
@@ -274,8 +273,6 @@ export default {
     ...utils,
     updateFilter() {
       this.updating = true;
-
-
       if (
         !this.options.onlyPrompts &&
         !this.options.filter.term.length &&

@@ -24,6 +24,10 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "Aquarian Age: Juvenile Orion",
+    "category": ["Anime & Manga", "Other Media"]
+  },
+  {
     "name": "Banana Fish (Anime & Manga)",
     "category": ["Anime & Manga"]
   },
@@ -72,6 +76,10 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "Core Scramble - Euho Jun",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "D.N. Angel",
     "category": ["Anime & Manga"]
   },
@@ -100,6 +108,14 @@
     "category": ["Anime & Manga", "Video Games"]
   },
   {
+    "name": "Digimon Adventure Zero Two | Digimon Adventure 02",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Digimon Universe: Appli Monsters",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Dorohedoro",
     "category": ["Anime & Manga"]
   },
@@ -114,6 +130,10 @@
   {
     "name": "Dragon Kishi-dan | Dragon Knights",
     "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Durarara!!",
+    "category": ["Anime & Manga", "Books & Literature", "Video Games"]
   },
   {
     "name": "Eroica Yori Ai o Komete | From Eroica with Love",
@@ -146,6 +166,10 @@
   {
     "name": "Fullmetal Alchemist: Brotherhood & Manga",
     "category": ["Anime & Manga", "Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "Fushigi Yuugi",
+    "category": ["Anime & Manga"]
   },
   {
     "name": "Gintama",
@@ -204,6 +228,10 @@
     "category": ["Anime & Manga", "Video Games"]
   },
   {
+    "name": "InuYasha - A Feudal Fairy Tale",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "K (Anime)",
     "category": ["Anime & Manga"]
   },
@@ -214,6 +242,10 @@
   {
     "name": "Katekyou Hitman Reborn!",
     "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Kichiku Megane",
+    "category": ["Anime & Manga", "Video Games"]
   },
   {
     "name": "Koutetsu Sangokushi",
@@ -312,6 +344,10 @@
     "category": ["Anime & Manga", "Video Games"]
   },
   {
+    "name": "Nightmare Catalog (Manga)",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Norn9",
     "category": ["Anime & Manga", "Video Games"]
   },
@@ -328,6 +364,14 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "Ouji no Hakoniwa (manga)",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Pandora's Choice - Lezhin",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Persona 4",
     "category": ["Anime & Manga", "Video Games"]
   },
@@ -336,7 +380,15 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "Phantom in the Twilight",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Pocket Monsters SPECIAL | Pokemon Adventures",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Princess Principal (Anime)",
     "category": ["Anime & Manga"]
   },
   {
@@ -345,6 +397,10 @@
   },
   {
     "name": "Ranma 1/2",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Rurouni Kenshin",
     "category": ["Anime & Manga"]
   },
   {
@@ -360,6 +416,10 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "Sensha Otoko: A True Tank Story (Manga)",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Shingeki no Kyojin | Attack on Titan",
     "category": ["Anime & Manga"]
   },
@@ -369,6 +429,10 @@
   },
   {
     "name": "Silver Diamond",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Simoun (Anime)",
     "category": ["Anime & Manga"]
   },
   {
@@ -416,6 +480,10 @@
     "category": ["Anime & Manga", "Video Games"]
   },
   {
+    "name": "Tokyo Babylon",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Tokyo Ghoul",
     "category": ["Anime & Manga"]
   },
@@ -432,6 +500,10 @@
     "category": ["Anime & Manga", "Books & Literature"]
   },
   {
+    "name": "Tsubasa: Reservoir Chronicle",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "Tsuritama",
     "category": ["Anime & Manga"]
   },
@@ -441,6 +513,14 @@
   },
   {
     "name": "Weiß Kreuz",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "Wotakoi: Love Is Hard For Otaku (Manga)",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "X -エックス- | X/1999",
     "category": ["Anime & Manga"]
   },
   {
@@ -472,7 +552,15 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "YuruYuri",
+    "category": ["Anime & Manga"]
+  },
+  {
     "name": "アグレッシブ烈子 | Aggressive Retsuko | Aggretsuko (Anime)",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "あさがおと加瀬さん | Asagao to Kase-san | Kase-san and Morning Glories (Manga)",
     "category": ["Anime & Manga"]
   },
   {
@@ -489,6 +577,10 @@
   },
   {
     "name": "しろがねの王 | Shirogane no Ou",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "しろのおうさま | The White King (Manga)",
     "category": ["Anime & Manga"]
   },
   {
@@ -540,6 +632,10 @@
     "category": ["Anime & Manga"]
   },
   {
+    "name": "ワンパンマン | One-Punch Man",
+    "category": ["Anime & Manga", "Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "不機嫌なモノノケ庵 | Fukigen na Mononokean | The Morose Mononokean",
     "category": ["Anime & Manga"]
   },
@@ -573,6 +669,10 @@
   },
   {
     "name": "四月は君の嘘 | Shigatsu wa Kimi no Uso | Your lie in April",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "夜ノヤッターマン | Yoru no Yatterman | Yatterman Night",
     "category": ["Anime & Manga"]
   },
   {
@@ -665,6 +765,10 @@
   },
   {
     "name": "魔法少女育成計画 | Mahou Shoujo Ikusei Keikaku | Magical Girl Raising Project (Anime)",
+    "category": ["Anime & Manga"]
+  },
+  {
+    "name": "마왕일기 | Demon Diary",
     "category": ["Anime & Manga"]
   },
   {
@@ -766,6 +870,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "The Blending Series - Sharon Green",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Blood-Smoke Series - Tanya Huff",
     "category": ["Books & Literature"]
   },
@@ -790,6 +898,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "The Broken Empire - Mark Lawrence",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Byrne and Balzano Series - Richard Montanari",
     "category": ["Books & Literature"]
   },
@@ -799,6 +911,14 @@
   },
   {
     "name": "California Diaries - Ann M. Martin",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Call of the Wild - Jack London",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Canterwood Crest - Jessica Burkhart",
     "category": ["Books & Literature"]
   },
   {
@@ -830,6 +950,14 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Christabel - Samuel Taylor Coleridge",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Chronicles of Amber - Roger Zelazny",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Chronicles of Narnia - C. S. Lewis",
     "category": ["Books & Literature"]
   },
@@ -851,6 +979,10 @@
   },
   {
     "name": "The Collared Knight - Tara McGolden",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Comfortable Courtesan - Madame C- C-",
     "category": ["Books & Literature"]
   },
   {
@@ -879,6 +1011,10 @@
   },
   {
     "name": "The Culture - Iain M. Banks",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Cyclone Series - Courtney Milan",
     "category": ["Books & Literature"]
   },
   {
@@ -930,6 +1066,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Diving Series - Kristine Kathryn Rusch",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Doctor Who: Eighth Doctor Adventures - Various Authors",
     "category": ["Books & Literature"]
   },
@@ -939,6 +1079,10 @@
   },
   {
     "name": "Dracula - Bram Stoker",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Dragon Blood Series - Lindsay Buroker",
     "category": ["Books & Literature"]
   },
   {
@@ -994,6 +1138,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Ella Enchanted - Gail Carson Levine",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Emma - Jane Austen",
     "category": ["Books & Literature"]
   },
@@ -1014,6 +1162,14 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "The Fall of Arthur - J.R.R. Tolkien",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Fallen Empire - Lindsay Buroker",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "The Far Pavilions - M.M. Kaye",
     "category": ["Books & Literature"]
   },
@@ -1023,6 +1179,10 @@
   },
   {
     "name": "The Father Christmas Letters - J. R. R. Tolkien",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "A Ferry of Bones and Gold - Hailey Turner",
     "category": ["Books & Literature"]
   },
   {
@@ -1051,6 +1211,14 @@
   },
   {
     "name": "Foreigner Series - C. J. Cherryh",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Forestwife - Theresa Tomlinson",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Forgotten Ages - Lindsay Buroker",
     "category": ["Books & Literature"]
   },
   {
@@ -1110,6 +1278,14 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Green Men Series - K. J. Charles",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Greenglass House - Kate Milford",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "The Half Bad Trilogy - Sally Green",
     "category": ["Books & Literature"]
   },
@@ -1118,7 +1294,15 @@
     "category": ["Books & Literature", "Movies", "Video Games"]
   },
   {
+    "name": "Harry Potter: Hogwarts Mystery",
+    "category": ["Books & Literature", "Movies", "Video Games"]
+  },
+  {
     "name": "The Haunting of Hill House - Shirley Jackson",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Head On - John Scalzi",
     "category": ["Books & Literature"]
   },
   {
@@ -1154,6 +1338,10 @@
     "category": ["Books & Literature", "Other Media"]
   },
   {
+    "name": "Hornblower - C. S. Forester",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "House of Mirth - Edith Wharton",
     "category": ["Books & Literature"]
   },
@@ -1178,7 +1366,15 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "In Death - J. D. Robb",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "In Other Lands | The Turn of the Story - Sarah Rees Brennan",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Innkeeper Chronicles - Ilona Andrews",
     "category": ["Books & Literature"]
   },
   {
@@ -1230,11 +1426,23 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Keys to the Kingdom - Garth Nix",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Kidnapped - Robert Louis Stevenson",
     "category": ["Books & Literature"]
   },
   {
     "name": "The Kingston Cycle - C. L. Polk",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Kraken - China Mieville",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Kulti - Mariana Zapata",
     "category": ["Books & Literature"]
   },
   {
@@ -1267,6 +1475,14 @@
   },
   {
     "name": "The Left Hand of Darkness - Ursula K. Le Guin",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Legend of Eli Monpress - Rachel Aaron",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Legend of Sigurd and Gudrún - J.R.R. Tolkien",
     "category": ["Books & Literature"]
   },
   {
@@ -1307,6 +1523,10 @@
   },
   {
     "name": "Lord Peter Wimsey - Dorothy L. Sayers",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Love Letters - A.R. Gurney",
     "category": ["Books & Literature"]
   },
   {
@@ -1358,6 +1578,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Meg Langslow Series - Donna Andrews",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Mercy Thompson Series - Patricia Briggs",
     "category": ["Books & Literature"]
   },
@@ -1367,6 +1591,10 @@
   },
   {
     "name": "Mesopotamian Mythology",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Miranda & Caliban - Jacqueline Carey",
     "category": ["Books & Literature"]
   },
   {
@@ -1442,6 +1670,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "A Pál utcai fiúk | The Paul Street Boys - Molnár Ferenc",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Parade's End - All Media Types",
     "category": ["Books & Literature", "TV Shows"]
   },
@@ -1490,11 +1722,19 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Prisoners of Peace Series - Erin Bow",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Prosperity Series - Alexis Hall",
     "category": ["Books & Literature"]
   },
   {
     "name": "Psmith - P. G. Wodehouse",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Pure - Julianna Baggott",
     "category": ["Books & Literature"]
   },
   {
@@ -1507,6 +1747,10 @@
   },
   {
     "name": "Radio Silence - Alice Oseman",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Rai-Kirah - Carol Berg",
     "category": ["Books & Literature"]
   },
   {
@@ -1527,6 +1771,10 @@
   },
   {
     "name": "Red Queen - Victoria Aveyard",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Reluctant Widow - Georgette Heyer",
     "category": ["Books & Literature"]
   },
   {
@@ -1554,7 +1802,19 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Sam Wyndham - Abir Mukherjee",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Sawkill Girls - Claire Legrand",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "The Scarlet Pimpernel - Baroness Orczy",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Secret Casebook of Simon Feximal - KJ Charles",
     "category": ["Books & Literature"]
   },
   {
@@ -1574,6 +1834,14 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Seven Kingdoms Trilogy - Kristin Cashore",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Shades of Magic - V. E. Schwab",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Shadowmarch Series - Tad Williams",
     "category": ["Books & Literature"]
   },
@@ -1583,6 +1851,10 @@
   },
   {
     "name": "Sharp Objects - Gillian Flynn",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Sherlock Ferret Series - Hugh Ashton",
     "category": ["Books & Literature"]
   },
   {
@@ -1600,6 +1872,10 @@
   {
     "name": "The Silmarillion and other histories of Middle-Earth - J. R. R. Tolkien",
     "category": ["Books & Literature", "Movies"]
+  },
+  {
+    "name": "The Silver Branch - Rosemary Sutcliff",
+    "category": ["Books & Literature"]
   },
   {
     "name": "Six of Crows Series - Leigh Bardugo",
@@ -1636,6 +1912,15 @@
   {
     "name": "Stanton & Barling - E.M. Powell",
     "category": ["Books & Literature"]
+  },
+  {
+    "name": "Star Wars (Marvel Comics)",
+    "category": [
+      "Books & Literature",
+      "Cartoons & Comics & Graphic Novels",
+      "Movies",
+      "Video Games"
+    ]
   },
   {
     "name": "Star Wars Legends: Darth Bane Trilogy - Drew Karpyshyn",
@@ -1692,6 +1977,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Star Wars: Bloodline - Claudia Gray",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Star Wars: Canto Bight - Various Authors",
     "category": ["Books & Literature"]
   },
@@ -1710,6 +1999,10 @@
   },
   {
     "name": "Stormlight Archive - Brandon Sanderson",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "Strange Grace - Tessa Gratton",
     "category": ["Books & Literature"]
   },
   {
@@ -1737,6 +2030,10 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Swordheart - T. Kingfisher",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Swordspoint Series - Ellen Kushner",
     "category": ["Books & Literature"]
   },
@@ -1745,7 +2042,15 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "The Tarot Sequence - K.D. Edwards",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "Temeraire - Naomi Novik",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "The Tensorate Series - J. Y. Yang",
     "category": ["Books & Literature"]
   },
   {
@@ -1779,6 +2084,10 @@
   {
     "name": "Twilight Series - All Media Types",
     "category": ["Books & Literature", "Movies"]
+  },
+  {
+    "name": "Twilight Series - Stephenie Meyer",
+    "category": ["Books & Literature"]
   },
   {
     "name": "Uprooted - Naomi Novik",
@@ -1857,7 +2166,15 @@
     "category": ["Books & Literature"]
   },
   {
+    "name": "Zenda Novels - Anthony Hope",
+    "category": ["Books & Literature"]
+  },
+  {
     "name": "全职高手 - 蝴蝶蓝 | Quánzhí Gāoshǒu - Húdié Lán",
+    "category": ["Books & Literature"]
+  },
+  {
+    "name": "天官赐福 - 墨香铜臭 | Tiān Guān Cì Fú - Mòxiāng Tóngxiù",
     "category": ["Books & Literature"]
   },
   {
@@ -1877,6 +2194,10 @@
     "category": ["Books & Literature", "Cartoons & Comics & Graphic Novels"]
   },
   {
+    "name": "3 Below (Cartoon)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "Anya's Ghost",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
@@ -1894,6 +2215,14 @@
   },
   {
     "name": "Avengers: Earth's Mightiest Heroes",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "Bandette (Comics)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "Blueliners (Webcomic)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
@@ -1937,6 +2266,10 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
+    "name": "Disney Cartoons (Classic)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "The Dragon Prince (Cartoon)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
@@ -1945,11 +2278,19 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
+    "name": "Dumbing of Age",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "Dungeons and Dragons (Cartoon)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
     "name": "Fence (Comics)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "The Fox and the Crow (Columbia)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
@@ -1969,11 +2310,19 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
+    "name": "Gunnerkrigg Court",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "Halloween Movies - All Media Types",
     "category": ["Cartoons & Comics & Graphic Novels", "Movies"]
   },
   {
     "name": "Hark! A Vagrant",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "Harrow County (Comic)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
@@ -2017,7 +2366,15 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
+    "name": "Lost In The Snow (Webcomic)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "Marvel (Comics)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "Monstress (Comics)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
@@ -2037,11 +2394,15 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
-    "name": "Next Avengers",
+    "name": "Nothing Can Possibly Go Wrong - Prudence Shen",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
     "name": "Oglaf (Webcomic)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
+    "name": "Puppy Dog Pals (Cartoon)",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
@@ -2061,8 +2422,16 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
+    "name": "The Sandman (Comics)",
+    "category": ["Cartoons & Comics & Graphic Novels"]
+  },
+  {
     "name": "Scott Pilgrim - All Media Types",
     "category": ["Cartoons & Comics & Graphic Novels", "Movies"]
+  },
+  {
+    "name": "The Secret Saturdays",
+    "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
     "name": "She-Ra and the Princesses of Power (2018)",
@@ -2137,10 +2506,6 @@
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
   {
-    "name": "Venom (Comics)",
-    "category": ["Cartoons & Comics & Graphic Novels"]
-  },
-  {
     "name": "The Venture Bros",
     "category": ["Cartoons & Comics & Graphic Novels"]
   },
@@ -2205,6 +2570,10 @@
     "category": ["Celebrities & Real People"]
   },
   {
+    "name": "Crooked Media RPF",
+    "category": ["Celebrities & Real People"]
+  },
+  {
     "name": "Deadpool (2016) RPF",
     "category": ["Celebrities & Real People"]
   },
@@ -2219,6 +2588,10 @@
   {
     "name": "Funhaus (Video Blogging RPF)",
     "category": ["Celebrities & Real People", "Other Media"]
+  },
+  {
+    "name": "Golden Age of Hollywood RPF",
+    "category": ["Celebrities & Real People"]
   },
   {
     "name": "The Great British Bake Off RPF",
@@ -2249,8 +2622,16 @@
     "category": ["Celebrities & Real People"]
   },
   {
+    "name": "Mr. Robot (TV) RPF",
+    "category": ["Celebrities & Real People"]
+  },
+  {
     "name": "Ninja Sex Party (Band)",
     "category": ["Celebrities & Real People", "Other Media"]
+  },
+  {
+    "name": "Papillon (2018) RPF",
+    "category": ["Celebrities & Real People"]
   },
   {
     "name": "Political RPF - UK 20th-21st c.",
@@ -2258,6 +2639,10 @@
   },
   {
     "name": "Political RPF - US 21st c.",
+    "category": ["Celebrities & Real People"]
+  },
+  {
+    "name": "Political RPF - US 21st Century",
     "category": ["Celebrities & Real People"]
   },
   {
@@ -2277,6 +2662,10 @@
     "category": ["Celebrities & Real People"]
   },
   {
+    "name": "UK Comedy RPF",
+    "category": ["Celebrities & Real People"]
+  },
+  {
     "name": "US Comedians RPF",
     "category": ["Celebrities & Real People"]
   },
@@ -2290,6 +2679,10 @@
   },
   {
     "name": "2 Guns (2013)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "21 Jump Street (Movies)",
     "category": ["Movies"]
   },
   {
@@ -2373,6 +2766,10 @@
     "category": ["Movies"]
   },
   {
+    "name": "Barbie and the Diamond Castle",
+    "category": ["Movies"]
+  },
+  {
     "name": "Batman (Movies - Nolan)",
     "category": ["Movies"]
   },
@@ -2398,6 +2795,14 @@
   },
   {
     "name": "Billy Elliot (2000)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Bird Box (2018)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Blå mænd | Take the Trash (2008)",
     "category": ["Movies"]
   },
   {
@@ -2461,6 +2866,10 @@
     "category": ["Movies"]
   },
   {
+    "name": "Captain Horatio Hornblower (1951)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Carol (2015)",
     "category": ["Movies"]
   },
@@ -2521,6 +2930,10 @@
     "category": ["Movies"]
   },
   {
+    "name": "The Disappearance of Alice Creed",
+    "category": ["Movies"]
+  },
+  {
     "name": "Disobedience (2017)",
     "category": ["Movies"]
   },
@@ -2546,6 +2959,14 @@
   },
   {
     "name": "Echte Kerle | Regular Guys (1996)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Evil Dead (Movies)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Ex Machina (2015)",
     "category": ["Movies"]
   },
   {
@@ -2589,6 +3010,10 @@
     "category": ["Movies"]
   },
   {
+    "name": "Fury (2014)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Fyra år till | Four More Years (2010)",
     "category": ["Movies", "TV Shows"]
   },
@@ -2609,7 +3034,15 @@
     "category": ["Movies"]
   },
   {
+    "name": "Gold (2016)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Gold Diggers (1995)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "A Goofy Movie (1995)",
     "category": ["Movies"]
   },
   {
@@ -2626,6 +3059,10 @@
   },
   {
     "name": "The Guns of Navarone (1961)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Hansel and Gretel: Witch Hunters (2013)",
     "category": ["Movies"]
   },
   {
@@ -2725,6 +3162,10 @@
     "category": ["Movies"]
   },
   {
+    "name": "King Kong (2005)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Kingsman (Movies)",
     "category": ["Movies"]
   },
@@ -2766,6 +3207,14 @@
   },
   {
     "name": "Little Women (1994)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Logan Lucky (2017)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "The Longest Ride (2015)",
     "category": ["Movies"]
   },
   {
@@ -2845,6 +3294,14 @@
     "category": ["Movies"]
   },
   {
+    "name": "Mulan (1998)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Mой нежно любимый детектив | My Dearly Beloved Detective (1986)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Need for Speed (Movie 2014)",
     "category": ["Movies"]
   },
@@ -2893,6 +3350,10 @@
     "category": ["Movies"]
   },
   {
+    "name": "Phineas and Ferb the Movie: Across the 2nd Dimension (2011)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Pilgrimage (2017)",
     "category": ["Movies"]
   },
@@ -2937,11 +3398,27 @@
     "category": ["Movies"]
   },
   {
+    "name": "Re-Animator (Movies)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Red Dawn (1984)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Reign Over Me (2007)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Reservoir Dogs (1992)",
     "category": ["Movies"]
   },
   {
     "name": "Resident Evil (Movieverse)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Rio Bravo (1959)",
     "category": ["Movies"]
   },
   {
@@ -2965,11 +3442,31 @@
     "category": ["Movies"]
   },
   {
+    "name": "Roman Holiday (1953)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Romeo Must Die (2000)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Ronin (1998)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Rownd a Rownd (TV)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Rush Hour (1998)",
     "category": ["Movies"]
   },
   {
     "name": "Safe House (2012)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Scenic Route (2013)",
     "category": ["Movies"]
   },
   {
@@ -3006,6 +3503,10 @@
   },
   {
     "name": "Six String Samurai (1998)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Sky High (2005)",
     "category": ["Movies"]
   },
   {
@@ -3057,15 +3558,15 @@
     "category": ["Movies", "TV Shows"]
   },
   {
-    "name": "Star Trek: The Original Series (Movies)",
-    "category": ["Movies"]
-  },
-  {
     "name": "Star Wars Sequel Trilogy",
     "category": ["Movies"]
   },
   {
     "name": "The Sting (1973)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Street Fighter the Movie (Movies)",
     "category": ["Movies"]
   },
   {
@@ -3078,6 +3579,10 @@
   },
   {
     "name": "Sunshine (2007)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "The Terminal (2004)",
     "category": ["Movies"]
   },
   {
@@ -3101,11 +3606,19 @@
     "category": ["Movies"]
   },
   {
+    "name": "Tomb Raider (Movie 2018)",
+    "category": ["Movies"]
+  },
+  {
     "name": "Tomorrow When the War Began (2010)",
     "category": ["Movies"]
   },
   {
     "name": "Total Recall (2012)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Toy Story (Movies)",
     "category": ["Movies"]
   },
   {
@@ -3134,6 +3647,10 @@
   },
   {
     "name": "Underworld (Movies)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Unleashed (2005)",
     "category": ["Movies"]
   },
   {
@@ -3169,6 +3686,14 @@
     "category": ["Movies"]
   },
   {
+    "name": "The World's End (2013)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "Wreck-It Ralph (Movies)",
+    "category": ["Movies"]
+  },
+  {
     "name": "X-Men (Alternate Timeline Movies)",
     "category": ["Movies"]
   },
@@ -3189,6 +3714,14 @@
     "category": ["Movies"]
   },
   {
+    "name": "メアリと魔女の花 | Mary to Majo no Hana | Mary and the Witch's Flower (2017)",
+    "category": ["Movies"]
+  },
+  {
+    "name": "三少爺的劍 | Sword Master (2016)",
+    "category": ["Movies"]
+  },
+  {
     "name": "恐怖女子高校: 暴行リンチ教室 | Terrifying Girls' High School: Lynch Law Classroom (1973)",
     "category": ["Movies"]
   },
@@ -3201,8 +3734,16 @@
     "category": ["Movies"]
   },
   {
+    "name": "기억의 밤 | Forgotten (2017)",
+    "category": ["Movies"]
+  },
+  {
     "name": "내부자들 | Inside Men (2015)",
     "category": ["Movies"]
+  },
+  {
+    "name": "Bad Blood - Taylor Swift (Music Video)",
+    "category": ["Music & Bands"]
   },
   {
     "name": "Cobra Starship",
@@ -3217,12 +3758,20 @@
     "category": ["Music & Bands"]
   },
   {
+    "name": "Gladiator - Dami Im (Music Video)",
+    "category": ["Music & Bands"]
+  },
+  {
     "name": "Gravel To Tempo - Hayley Kiyoko (Music Video)",
     "category": ["Music & Bands"]
   },
   {
     "name": "Hadestown - Mitchell",
     "category": ["Music & Bands", "Theater"]
+  },
+  {
+    "name": "Hello (From Under the Tree) - Adele Parody (YouTube)",
+    "category": ["Music & Bands"]
   },
   {
     "name": "Jumpsuit - Twenty One Pilots (Music Video)",
@@ -3249,6 +3798,10 @@
     "category": ["Music & Bands"]
   },
   {
+    "name": "A Passion Play (Jethro Tull Album)",
+    "category": ["Music & Bands"]
+  },
+  {
     "name": "Queen (Band)",
     "category": ["Music & Bands"]
   },
@@ -3257,11 +3810,31 @@
     "category": ["Music & Bands"]
   },
   {
+    "name": "The River - Delta Goodrem (Music Video)",
+    "category": ["Music & Bands"]
+  },
+  {
+    "name": "Sax Rohmer #1 – The Mountain Goats",
+    "category": ["Music & Bands"]
+  },
+  {
+    "name": "Together - Ryan O'Shaughnessy (Music Video)",
+    "category": ["Music & Bands"]
+  },
+  {
     "name": "Years & Years - Palo Santo (Music Video)",
     "category": ["Music & Bands"]
   },
   {
     "name": "ヒプノシスマイク | Hypnosis Mic (Albums)",
+    "category": ["Music & Bands"]
+  },
+  {
+    "name": "那不勒斯的黎明 | Dawn in Naples - SNH48 (Music Video)",
+    "category": ["Music & Bands"]
+  },
+  {
+    "name": "방탄소년단 | Bangtan Boys | BTS",
     "category": ["Music & Bands"]
   },
   {
@@ -3290,6 +3863,10 @@
   },
   {
     "name": "Alice Isn't Dead (Podcast)",
+    "category": ["Other Media"]
+  },
+  {
+    "name": "Auto Racing (Anthropomorphic)",
     "category": ["Other Media"]
   },
   {
@@ -3365,6 +3942,10 @@
     "category": ["Other Media"]
   },
   {
+    "name": "Exalted (Roleplaying Game)",
+    "category": ["Other Media"]
+  },
+  {
     "name": "Friends at the Table (Podcast)",
     "category": ["Other Media"]
   },
@@ -3373,7 +3954,15 @@
     "category": ["Other Media"]
   },
   {
+    "name": "The Gambler's Game (creepypasta)",
+    "category": ["Other Media"]
+  },
+  {
     "name": "Gay Aunt Barbara (Web Series)",
+    "category": ["Other Media"]
+  },
+  {
+    "name": "Interface (Web Series)",
     "category": ["Other Media"]
   },
   {
@@ -3401,6 +3990,10 @@
     "category": ["Other Media"]
   },
   {
+    "name": "Mansions of Madness Second Edition (Board Game)",
+    "category": ["Other Media"]
+  },
+  {
     "name": "National Wrestling Alliance",
     "category": ["Other Media"]
   },
@@ -3409,7 +4002,15 @@
     "category": ["Other Media", "Video Games"]
   },
   {
+    "name": "Omar Rayyan - Works",
+    "category": ["Other Media"]
+  },
+  {
     "name": "The Penumbra Podcast",
+    "category": ["Other Media"]
+  },
+  {
+    "name": "Queen of Seven Kingdoms - Julie Dillon (Artwork)",
     "category": ["Other Media"]
   },
   {
@@ -3433,6 +4034,10 @@
     "category": ["Other Media"]
   },
   {
+    "name": "St. Valentine's massive gay polyamorous marriage (Tumblr post)",
+    "category": ["Other Media"]
+  },
+  {
     "name": "The Strange Case of Starship Iris (Podcast)",
     "category": ["Other Media"]
   },
@@ -3442,6 +4047,10 @@
   },
   {
     "name": "Trashy Vampire Romance Novel - Fractal",
+    "category": ["Other Media"]
+  },
+  {
+    "name": "Virtual Voice Assistant (Anthropomorphic)",
     "category": ["Other Media"]
   },
   {
@@ -3481,6 +4090,10 @@
     "category": ["Theater"]
   },
   {
+    "name": "Don Carlos | Don Carlo - Verdi/du Locle/Méry",
+    "category": ["Theater"]
+  },
+  {
     "name": "Don Juan - Gray",
     "category": ["Theater"]
   },
@@ -3505,11 +4118,23 @@
     "category": ["Theater"]
   },
   {
+    "name": "Iolanthe - Sullivan/Gilbert",
+    "category": ["Theater"]
+  },
+  {
     "name": "Kordian - Słowacki",
     "category": ["Theater"]
   },
   {
+    "name": "La Traviata - Verdi/Piave",
+    "category": ["Theater"]
+  },
+  {
     "name": "Legally Blonde - Hach/O'Keefe/Benjamin",
+    "category": ["Theater"]
+  },
+  {
+    "name": "Les Contes d'Hoffman - Offenbach/Barbier",
     "category": ["Theater"]
   },
   {
@@ -3541,7 +4166,19 @@
     "category": ["Theater"]
   },
   {
+    "name": "Simon Boccanegra - Verdi/Piave",
+    "category": ["Theater"]
+  },
+  {
+    "name": "Sleep No More - Punchdrunk",
+    "category": ["Theater"]
+  },
+  {
     "name": "Twelfth Night - Shakespeare",
+    "category": ["Theater"]
+  },
+  {
+    "name": "Un Ballo in Maschera | A Masked Ball - Verdi/Somma",
     "category": ["Theater"]
   },
   {
@@ -3557,11 +4194,19 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "10th Kingdom (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "30 Rock",
     "category": ["TV Shows"]
   },
   {
     "name": "9-1-1 (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "The A-Team (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -3677,6 +4322,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Being Erica",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Being Human (UK)",
     "category": ["TV Shows"]
   },
@@ -3714,6 +4363,10 @@
   },
   {
     "name": "Blood Drive (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Blue Bloods (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -3793,6 +4446,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "The Closer",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Cold Case",
     "category": ["TV Shows"]
   },
@@ -3817,6 +4474,14 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Crusade",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "CSI: Miami",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "The Curious Creations of Christine McConnell (TV)",
     "category": ["TV Shows"]
   },
@@ -3837,6 +4502,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Dawson's Creek",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "DC's Arrowverse",
     "category": ["TV Shows"]
   },
@@ -3845,7 +4514,27 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Deadly Class (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Deadwax (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Deadwood",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Death Note (Live Action TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Defiance (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Diablero (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -3981,6 +4670,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Friends (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "From Dusk Till Dawn: The Series",
     "category": ["TV Shows"]
   },
@@ -4014,6 +4707,10 @@
   },
   {
     "name": "Godless (TV 2017)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Golden Girls",
     "category": ["TV Shows"]
   },
   {
@@ -4105,6 +4802,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Hornblower (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "The Hour (TV)",
     "category": ["TV Shows"]
   },
@@ -4154,6 +4855,10 @@
   },
   {
     "name": "Jordskott (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Kamen Rider Gaim",
     "category": ["TV Shows"]
   },
   {
@@ -4249,6 +4954,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Lost in Space (TV 2018)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Loudermilk (TV)",
     "category": ["TV Shows"]
   },
@@ -4266,6 +4975,10 @@
   },
   {
     "name": "MacGyver (TV 2016)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Mad Men (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -4357,6 +5070,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Monkees (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Mr. Robot (TV)",
     "category": ["TV Shows"]
   },
@@ -4413,6 +5130,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Novoland: The Castle in the Sky",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "The OC (TV)",
     "category": ["TV Shows"]
   },
@@ -4449,6 +5170,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Parks and Recreation",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Peaky Blinders (TV)",
     "category": ["TV Shows"]
   },
@@ -4477,6 +5202,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "A Place to Call Home (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Pose (TV 2018)",
     "category": ["TV Shows"]
   },
@@ -4485,11 +5214,23 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Power Rangers Lightspeed Rescue",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Powerless (TV 2017)",
     "category": ["TV Shows"]
   },
   {
+    "name": "The Pretender (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Primeval",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "The Prince of Atlantis (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -4522,6 +5263,10 @@
   },
   {
     "name": "Rome (TV 2005)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "The Rookie (TV 2018)",
     "category": ["TV Shows"]
   },
   {
@@ -4661,6 +5406,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "The Starry Night The Starry Sea",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "Starsky & Hutch",
     "category": ["TV Shows"]
   },
@@ -4701,11 +5450,11 @@
     "category": ["TV Shows"]
   },
   {
-    "name": "Supergirl (TV 2015)",
+    "name": "Supernatural",
     "category": ["TV Shows"]
   },
   {
-    "name": "Supernatural",
+    "name": "Superstore (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -4714,6 +5463,10 @@
   },
   {
     "name": "Tenko (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "Terra Nova (TV)",
     "category": ["TV Shows"]
   },
   {
@@ -4726,10 +5479,6 @@
   },
   {
     "name": "Thunderbolt Fantasy 東離劍遊紀 (TV)",
-    "category": ["TV Shows"]
-  },
-  {
-    "name": "Tidelands",
     "category": ["TV Shows"]
   },
   {
@@ -4805,6 +5554,10 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "Warehouse 13",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "The West Wing",
     "category": ["TV Shows"]
   },
@@ -4857,6 +5610,14 @@
     "category": ["TV Shows"]
   },
   {
+    "name": "少年杨家将 | The Young Warriors (TV)",
+    "category": ["TV Shows"]
+  },
+  {
+    "name": "惹上冷殿下 | Accidentally in Love (TV)",
+    "category": ["TV Shows"]
+  },
+  {
     "name": "琅琊榜 | Nirvana in Fire (TV)",
     "category": ["TV Shows"]
   },
@@ -4893,95 +5654,7 @@
     "category": ["TV Shows"]
   },
   {
-    "name": "Auto Racing (Anthropomorphic)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Bandette (Comics)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Barbie and the Diamond Castle",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Blå mænd | Take the Trash (2008)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Broken Empire - Mark Lawrence",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Charming Empire (Visual Novel)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Core Scramble - Euho Jun",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
     "name": "DCU (Comics New 52-Present)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Deadly Class (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Deadwax (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Diablero (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Disappearance of Alice Creed",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Dissisia: Final Fantasy NT",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Diving Series - Kristine Kathryn Rusch",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Drakengard (2003)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Epic Seven (Mobile Game)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "A Ferry of Bones and Gold - Hailey Turner",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Fist Of The North Star: Lost Paradise (Video Game)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Forestwife - Theresa Tomlinson",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Gambler's Game (creepypasta)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Gold (2016)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Head On - John Scalzi",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Hello (From Under the Tree) - Adele Parody (YouTube)",
     "category": ["Uncategorized Fandoms"]
   },
   {
@@ -4989,187 +5662,7 @@
     "category": ["Uncategorized Fandoms"]
   },
   {
-    "name": "Interface (Web Series)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Legend of Mana",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "London Detective Mysteria (video game)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Longest Ride (2015)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Lost In The Snow (Webcomic)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Love Letters - A.R. Gurney",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Mad Men (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Mansions of Madness Second Edition (Board Game)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Meg Langslow series - Donna Andrews",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Memory's Dogma (Visual Novel)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Miranda & Caliban - Jacqueline Carey",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Monkees (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Mr. Robot (TV) RPF",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Nightmare Catalog (Manga)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Nothing Can Possibly Go Wrong - Prudence Shen",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Novoland: The Castle in the Sky",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Ouji no Hakoniwa (manga)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Pandora's Choice - Lezhin",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Papillon (2018) RPF",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "A Passion Play (Jethro Tull Album)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Phantom in the Twilight",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Political RPF - US 21st Century",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Prince of Atlantis (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Puppy Dog Pals (Cartoon)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Queen of Seven Kingdoms - Julie Dillon (Artwork)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The River - Delta Goodrem (Music Video)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Ronin (1998)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Rookie (TV 2018)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Rownd a Rownd (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Sam Wyndham - Abir Mukherjee",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Sawkill Girls - Claire Legrand",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Secret Casebook of Simon Feximal - KJ Charles",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "St. Valentine's massive gay polyamorous marriage (Tumblr post)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Starry Night The Starry Sea",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Strange Grace - Tessa Gratton",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Swordheart - T. Kingfisher",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Tarot Sequence - K.D. Edwards",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "The Terminal (2004)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Together - Ryan O'Shaughnessy (Music Video)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "UK Comedy RPF",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Virtual Voice Assistant (Anthropomorphic)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "Wotakoi: Love Is Hard For Otaku (Manga)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "しろのおうさま | The White King (Manga)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "三少爺的劍 | Sword Master (2016)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "少年杨家将 | The Young Warriors (TV)",
-    "category": ["Uncategorized Fandoms"]
-  },
-  {
-    "name": "기억의 밤 | Forgotten (2017)",
+    "name": "Pretty Brunet Deer Person Trying To Seduce a Sulky Reaper (Illustration)",
     "category": ["Uncategorized Fandoms"]
   },
   {
@@ -5178,6 +5671,10 @@
   },
   {
     "name": "7'Scarlet (Visual Novel)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Animamundi Dark Alchemist",
     "category": ["Video Games"]
   },
   {
@@ -5206,6 +5703,10 @@
   },
   {
     "name": "Bully (Video Games)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "The Charming Empire (Visual Novel)",
     "category": ["Video Games"]
   },
   {
@@ -5238,6 +5739,10 @@
   },
   {
     "name": "Dark Souls (Video Games)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "The Darkness (Games)",
     "category": ["Video Games"]
   },
   {
@@ -5281,6 +5786,14 @@
     "category": ["Video Games"]
   },
   {
+    "name": "Dissisia: Final Fantasy NT",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Drag-On Dragoon | Drakengard",
+    "category": ["Video Games"]
+  },
+  {
     "name": "Dragalia Lost (Video Game)",
     "category": ["Video Games"]
   },
@@ -5293,7 +5806,15 @@
     "category": ["Video Games"]
   },
   {
+    "name": "DRAMAtical Murder (Visual Novel)",
+    "category": ["Video Games"]
+  },
+  {
     "name": "Dream Daddy: A Dad Dating Simulator",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Elder Scrolls III: Morrowind",
     "category": ["Video Games"]
   },
   {
@@ -5306,6 +5827,10 @@
   },
   {
     "name": "Ensemble Stars! (Video Game)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Epic Seven (Mobile Game)",
     "category": ["Video Games"]
   },
   {
@@ -5345,7 +5870,7 @@
     "category": ["Video Games"]
   },
   {
-    "name": "Fate/EXTRA",
+    "name": "Fate/EXTRA CCC - Fandom",
     "category": ["Video Games"]
   },
   {
@@ -5434,6 +5959,10 @@
   },
   {
     "name": "Fire Emblem: The Sacred Stones",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Fist Of The North Star: Lost Paradise (Video Game)",
     "category": ["Video Games"]
   },
   {
@@ -5529,6 +6058,10 @@
     "category": ["Video Games"]
   },
   {
+    "name": "Legend of Mana",
+    "category": ["Video Games"]
+  },
+  {
     "name": "The Legend of Zelda: Breath of the Wild",
     "category": ["Video Games"]
   },
@@ -5546,6 +6079,10 @@
   },
   {
     "name": "Life Is Strange (Video Game)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "London Detective Mysteria (Video Game)",
     "category": ["Video Games"]
   },
   {
@@ -5570,6 +6107,10 @@
   },
   {
     "name": "Mass Effect: Andromeda",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Memory's Dogma (Visual Novel)",
     "category": ["Video Games"]
   },
   {
@@ -5733,6 +6274,10 @@
     "category": ["Video Games"]
   },
   {
+    "name": "Star Ocean: The Last Hope",
+    "category": ["Video Games"]
+  },
+  {
     "name": "Star Ocean: Till the End of Time",
     "category": ["Video Games"]
   },
@@ -5766,6 +6311,10 @@
   },
   {
     "name": "Super Mario Odyssey (Video Game)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "Super Smash Brothers",
     "category": ["Video Games"]
   },
   {
@@ -5834,6 +6383,10 @@
   },
   {
     "name": "World of Warcraft",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "XCOM (Video Games) & Related Fandoms",
     "category": ["Video Games"]
   },
   {
@@ -5910,6 +6463,10 @@
   },
   {
     "name": "灰鷹のサイケデリカ | Haitaka no Psychedelica | Psychedelica of the Hawk (Visual Novel)",
+    "category": ["Video Games"]
+  },
+  {
+    "name": "花帰葬 | Hanakisou (Visual Novel)",
     "category": ["Video Games"]
   },
   {

@@ -11,6 +11,7 @@
             <th class="username">Fandom</th>
             <th class="characters">Characters</th>
             <th class="prompts">Prompts</th>
+            <th>Type</th>
           </tr>
         </thead>
         <tbody>
@@ -35,6 +36,10 @@
             <td class="prompt">
               <div v-html="prompt.prompt"></div>
               <a v-if="prompt.letter" :href="formatUrl(prompt.letter)" target="blank">Letter</a>
+            </td>
+            <td class="type">
+              <p v-if="prompt.fanfic">Fanfic</p>
+              <p v-if="prompt.fanart">Fanart</p>
             </td>
           </tr>
         </tbody>
