@@ -3,7 +3,7 @@
 		<h1>Chocobox 2019 App</h1>
 
     <p>Looking for something? The <a href="https://chocoboxsearch.herokuapp.com">search tool</a> is a full-text, much faster way to search - <strong>including relationships and full-text prompt search!</strong></p>
-    <p><strong>CAVEATS</strong>: currently, prompts that you bookmark <strong>do not update or get deleted</strong> if the requester makes changes/deletes them AFTER you've bookmarked it. <strong>Always check the final signup after signups close.</strong></p>
+    <p><strong>CAVEATS</strong>: until signups close, bookmarked prompts <strong>do not update/get deleted in the Bookmarks pane</strong> if the requester makes changes/deletes them. You can remove and re-add the current version from the main table at any time. <strong>Always check the final signup!</strong></p>
 
     <div v-if="!loaded || !loadedChars || !loadedHasPrompts" class="loader">Loading...</div>
 

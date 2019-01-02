@@ -181,7 +181,7 @@ table {
     }
   }
   th.fandom {
-    width: 400px;
+    width: 350px;
   }
   th.characters {
     width: auto;
@@ -192,6 +192,10 @@ table {
 
   th.fave {
     width: 20px;
+  }
+
+  th.type {
+    width: 85px;
   }
 }
 thead {

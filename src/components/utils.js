@@ -20,9 +20,6 @@ export default {
         return result;
       });
   },
-  letterHasChar(key, char) {
-    return this.letterChars.fandom === key && includes(this.letterChars.characters, char);
-  },
   highlightChars(letter, key) {
     this.letterChars = {
       fandom: key,

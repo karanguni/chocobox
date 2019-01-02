@@ -94,7 +94,7 @@
                       <th class="username">Username</th>
                       <th class="characters">Characters</th>
                       <th class="prompts">Prompts</th>
-                      <th>Type</th>
+                      <th class="type">Type</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -152,7 +152,7 @@
                   <th class="username">Username</th>
                   <th class="characters">Characters</th>
                   <th class="prompts">Prompts</th>
-                  <th>Type</th>
+                  <th class="type">Type</th>
                 </tr>
               </thead>
               <tbody>
